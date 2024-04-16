@@ -17,7 +17,7 @@ pipeline {
                 // failed, record the test results and archive the jar file.
                 success {
                    
-                    archiveArtifacts 'target/*.war'
+                    archiveArtifacts 'target/*.jar'
                 }
             }
         }
